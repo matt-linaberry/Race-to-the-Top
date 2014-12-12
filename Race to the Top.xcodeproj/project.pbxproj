@@ -14,6 +14,7 @@
 		99C672B91A3A7AA900EE6A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C672B81A3A7AA900EE6A92 /* Images.xcassets */; };
 		99C672BC1A3A7AA900EE6A92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C672BA1A3A7AA900EE6A92 /* LaunchScreen.xib */; };
 		99C672C81A3A7AA900EE6A92 /* Race_to_the_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672C71A3A7AA900EE6A92 /* Race_to_the_TopTests.m */; };
+		99C672D31A3A7B4400EE6A92 /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		99C672C11A3A7AA900EE6A92 /* Race to the TopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race to the TopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C672C61A3A7AA900EE6A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99C672C71A3A7AA900EE6A92 /* Race_to_the_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_to_the_TopTests.m; sourceTree = "<group>"; };
+		99C672D11A3A7B4400EE6A92 /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
+		99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				99C672B21A3A7AA900EE6A92 /* ViewController.h */,
 				99C672B31A3A7AA900EE6A92 /* ViewController.m */,
 				99C672B51A3A7AA900EE6A92 /* Main.storyboard */,
+				99C672D11A3A7B4400EE6A92 /* SpaceShipView.h */,
+				99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */,
 				99C672B81A3A7AA900EE6A92 /* Images.xcassets */,
 				99C672BA1A3A7AA900EE6A92 /* LaunchScreen.xib */,
 				99C672AB1A3A7AA900EE6A92 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C672B41A3A7AA900EE6A92 /* ViewController.m in Sources */,
+				99C672D31A3A7B4400EE6A92 /* SpaceShipView.m in Sources */,
 				99C672B11A3A7AA900EE6A92 /* AppDelegate.m in Sources */,
 				99C672AE1A3A7AA900EE6A92 /* main.m in Sources */,
 			);
