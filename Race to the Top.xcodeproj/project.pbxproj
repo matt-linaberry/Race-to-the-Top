@@ -10,11 +10,13 @@
 		99C672AE1A3A7AA900EE6A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672AD1A3A7AA900EE6A92 /* main.m */; };
 		99C672B11A3A7AA900EE6A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672B01A3A7AA900EE6A92 /* AppDelegate.m */; };
 		99C672B41A3A7AA900EE6A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672B31A3A7AA900EE6A92 /* ViewController.m */; };
-		99C672B71A3A7AA900EE6A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C672B51A3A7AA900EE6A92 /* Main.storyboard */; };
+		99C672B71A3A7AA900EE6A92 /* Main.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C672B51A3A7AA900EE6A92 /* Main.iPhone.storyboard */; };
 		99C672B91A3A7AA900EE6A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C672B81A3A7AA900EE6A92 /* Images.xcassets */; };
 		99C672BC1A3A7AA900EE6A92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C672BA1A3A7AA900EE6A92 /* LaunchScreen.xib */; };
 		99C672C81A3A7AA900EE6A92 /* Race_to_the_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672C71A3A7AA900EE6A92 /* Race_to_the_TopTests.m */; };
 		99C672D31A3A7B4400EE6A92 /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */; };
+		99C6730A1A3A877500EE6A92 /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C673091A3A877500EE6A92 /* Main.iPad.storyboard */; };
+		99C6730C1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C6730B1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 		99C672B01A3A7AA900EE6A92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		99C672B21A3A7AA900EE6A92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		99C672B31A3A7AA900EE6A92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		99C672B61A3A7AA900EE6A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C672B61A3A7AA900EE6A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iPhone.storyboard; sourceTree = "<group>"; };
 		99C672B81A3A7AA900EE6A92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99C672BB1A3A7AA900EE6A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		99C672C11A3A7AA900EE6A92 /* Race to the TopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race to the TopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +45,8 @@
 		99C672C71A3A7AA900EE6A92 /* Race_to_the_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_to_the_TopTests.m; sourceTree = "<group>"; };
 		99C672D11A3A7B4400EE6A92 /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
 		99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
+		99C673091A3A877500EE6A92 /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
+		99C6730B1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mount_Fuji_and_Mount_Hoei.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +92,13 @@
 				99C672B01A3A7AA900EE6A92 /* AppDelegate.m */,
 				99C672B21A3A7AA900EE6A92 /* ViewController.h */,
 				99C672B31A3A7AA900EE6A92 /* ViewController.m */,
-				99C672B51A3A7AA900EE6A92 /* Main.storyboard */,
+				99C672B51A3A7AA900EE6A92 /* Main.iPhone.storyboard */,
 				99C672D11A3A7B4400EE6A92 /* SpaceShipView.h */,
 				99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */,
 				99C672B81A3A7AA900EE6A92 /* Images.xcassets */,
 				99C672BA1A3A7AA900EE6A92 /* LaunchScreen.xib */,
 				99C672AB1A3A7AA900EE6A92 /* Supporting Files */,
+				99C673091A3A877500EE6A92 /* Main.iPad.storyboard */,
 			);
 			path = "Race to the Top";
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		99C672AB1A3A7AA900EE6A92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99C6730B1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg */,
 				99C672AC1A3A7AA900EE6A92 /* Info.plist */,
 				99C672AD1A3A7AA900EE6A92 /* main.m */,
 			);
@@ -204,7 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C672B71A3A7AA900EE6A92 /* Main.storyboard in Resources */,
+				99C6730A1A3A877500EE6A92 /* Main.iPad.storyboard in Resources */,
+				99C672B71A3A7AA900EE6A92 /* Main.iPhone.storyboard in Resources */,
+				99C6730C1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */,
 				99C672BC1A3A7AA900EE6A92 /* LaunchScreen.xib in Resources */,
 				99C672B91A3A7AA900EE6A92 /* Images.xcassets in Resources */,
 			);
@@ -250,12 +258,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		99C672B51A3A7AA900EE6A92 /* Main.storyboard */ = {
+		99C672B51A3A7AA900EE6A92 /* Main.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				99C672B61A3A7AA900EE6A92 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		99C672BA1A3A7AA900EE6A92 /* LaunchScreen.xib */ = {
@@ -352,6 +360,7 @@
 				INFOPLIST_FILE = "Race to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -362,6 +371,7 @@
 				INFOPLIST_FILE = "Race to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -418,6 +428,7 @@
 				99C672CD1A3A7AA900EE6A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99C672CE1A3A7AA900EE6A92 /* Build configuration list for PBXNativeTarget "Race to the TopTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				99C672D01A3A7AA900EE6A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
