@@ -17,6 +17,8 @@
 		99C672D31A3A7B4400EE6A92 /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */; };
 		99C6730A1A3A877500EE6A92 /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C673091A3A877500EE6A92 /* Main.iPad.storyboard */; };
 		99C6730C1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C6730B1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg */; };
+		99D4B0FE1A3BEE9700CEBDF0 /* RTMountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D4B0FD1A3BEE9700CEBDF0 /* RTMountainPath.m */; };
+		99D4B1011A3BF22D00CEBDF0 /* RTPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D4B1001A3BF22D00CEBDF0 /* RTPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		99C672D21A3A7B4400EE6A92 /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
 		99C673091A3A877500EE6A92 /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
 		99C6730B1A3A8E0400EE6A92 /* Mount_Fuji_and_Mount_Hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mount_Fuji_and_Mount_Hoei.jpg; sourceTree = "<group>"; };
+		99D4B0FC1A3BEE9700CEBDF0 /* RTMountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMountainPath.h; sourceTree = "<group>"; };
+		99D4B0FD1A3BEE9700CEBDF0 /* RTMountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMountainPath.m; sourceTree = "<group>"; };
+		99D4B0FF1A3BF22D00CEBDF0 /* RTPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPathView.h; sourceTree = "<group>"; };
+		99D4B1001A3BF22D00CEBDF0 /* RTPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,10 @@
 				99C672BA1A3A7AA900EE6A92 /* LaunchScreen.xib */,
 				99C672AB1A3A7AA900EE6A92 /* Supporting Files */,
 				99C673091A3A877500EE6A92 /* Main.iPad.storyboard */,
+				99D4B0FC1A3BEE9700CEBDF0 /* RTMountainPath.h */,
+				99D4B0FD1A3BEE9700CEBDF0 /* RTMountainPath.m */,
+				99D4B0FF1A3BF22D00CEBDF0 /* RTPathView.h */,
+				99D4B1001A3BF22D00CEBDF0 /* RTPathView.m */,
 			);
 			path = "Race to the Top";
 			sourceTree = "<group>";
@@ -233,7 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C672B41A3A7AA900EE6A92 /* ViewController.m in Sources */,
+				99D4B0FE1A3BEE9700CEBDF0 /* RTMountainPath.m in Sources */,
 				99C672D31A3A7B4400EE6A92 /* SpaceShipView.m in Sources */,
+				99D4B1011A3BF22D00CEBDF0 /* RTPathView.m in Sources */,
 				99C672B11A3A7AA900EE6A92 /* AppDelegate.m in Sources */,
 				99C672AE1A3A7AA900EE6A92 /* main.m in Sources */,
 			);
