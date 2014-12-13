@@ -7,7 +7,6 @@
 //
 
 #import "RTMountainPath.h"
-#import <UIKit/UIKit.h>
 
 #define PATH_WIDTH 60
 @implementation RTMountainPath
@@ -114,5 +113,14 @@
     
 }
 
++ (UIBezierPath *)tapTargetForPath:(UIBezierPath *)path
+{
+                              // this is a C function.
+    CGPathRef tapTargetPath = CGPathCreateCopyByStrokingPath(path.CGPath, NULL, fmaxf(10.0f, path.lineWidth), path.lineCapStyle, path.lineJoinStyle, path.miterLimit);
+    UIBezierPath *tapTarget = [UIBezierPath bezierPathWithCGPath:tapTargetPath];
+    CGPathRelease(tapTargetPath);
+    
+    return tapTarget;
+}
 
 @end

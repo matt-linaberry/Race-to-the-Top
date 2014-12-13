@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import <UIKit/UIKit.h>
 @interface RTMountainPath : NSObject
 
 +(NSArray *)mountainPathsForRect:(CGRect)rect;
-
++(UIBezierPath *)tapTargetForPath:(UIBezierPath *)path;
 @end
